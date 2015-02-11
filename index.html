@@ -44,9 +44,8 @@
       <div class="slides">
 
         <section>
-          <section id="fragments">
+          <section>
             <h1>PreForma Project</h1>
-            <h5 class="fragment">Preservation Formats</h5>
             <p>
               <small>code4lib 2015 | Portland | <a href="http://www.ashleyblewer.com">Ashley Blewer</a></small>
             </p>
@@ -54,31 +53,101 @@
         </section>
 
         <section>
-          <h2>So what is PreForma</h2>
+          <h2>So what is PreForma?!</h2>
+        </section>
+
+        <section>
           <p>
-
+          Empower memory institutions to gain full control over the technical properties of digital content intended for long-term preservation. 
           </p>
+        </section>
 
-          <aside class="notes">
+        <section>
+          <h2>Oh, okay.</h2>
+        </section>
 
-          </aside>
+        <section id="fragments">
+          <section >
+            <div class="fragment" data-fragment-index="2"><img src="img/dealwithitdog.gif"></div>
+            <p class="fragment" data-fragment-index="0">
+            Aim of the project is to address the challenge of implementing good quality standardised file formats for preserving data content in the long term. The main objective is to give memory institutions full control of the process of the conformity tests of files to be ingested into archives.
+            </p>
+            <p class="fragment" data-fragment-index="1">(Yeah, I'm reading off of the slide.)</p>
+          </section>
         </section>
 
         <section data-background="img/preforma.png">
+          <aside class="notes">
+            It’s an EU-funded project for the investigation and creation of long-term digital preservation solutions. So we are currently part of the design phase (phase i) of building out a file conformance checker. My team is one piece of the PreForma puzzle and are working with the Matroska (MKV) wrapper format, the ffv1 codec format, and the LPCM encoding format (wave files). Other formats include PDF, TIFF, JPEG2000.
+
+            Okay, but what is it again? It’s byte-level analysis of files. Our hope is to analyze exactly what makes these files what they are and assess how to optimize them for long-term preservation while remaining completely open source and embracing open source methodologies.
+          </aside>
         </section>
 
         <section data-background="img/tswift.jpg">
+        <h1>WHO ARE YOU</h1>
+        <h1><br></h1>
+          <aside class="notes">
+            Our team has a history of successfully developing open source software, including our lead engineer Jerome Martinez responsible for MediaInfo (which is for extracting metadata from a file, even partial files), and our other project lead Dave Rice who recently completed the open source digitized analog video file analyzer, QC Tools. And both team leads worked to create BWF_Metaedit which helps validate wave files.
+
+            The project’s design will build upon MediaInfo’s current capabilities and expand from there.
+          </aside>
         </section>
 
         <section data-background="img/tswift.jpg" data-background-size="200px" data-background-repeat="repeat">
         </section>
 
-        <section data-background="img/tim-and-eric-mind-blown.gif" data-background-size="100px" data-background-repeat="repeat">
+        <section data-background="img/tswift.jpg" data-background-size="200px" data-background-repeat="repeat">
+          <h1>
+            011101000110000101111001011011000110111101110010001000000111001101110111011010010110011001110100 
+            011101000110000101111001011011000110111101110010001000000111001101110111011010010110011001110100 
+            011101000110000101111001011011000110111101110010001000000111001101110111011010010110011001110100 
+            011101000110000101111001011011000110111101110010001000000111001101110111011010010110011001110100 
+            011101000110000101111001011011000110111101110010001000000111001101110111011010010110011001110100
+            011101000110000101111001011011000110111101110010001000000111001101110111011010010110011001110100 
+            011101000110000101111001011011000110111101110010001000000111001101110111011010010110011001110100
+          </h1>
+        </section>
+
+        <section data-background="img/whataboutme.png">
+          <h1>WHAT ABOUT ME?</h1>
+        </section>
+
+        <section data-background="img/whataboutme.png">
+          <aside class="notes">
+            So what does that mean for YOU, as librarians? How can you benefit from this project and why am I talking about it?
+
+            Well if you are an archivist or working in special collections or do any sort of digital asset management, it’s important that you have the ability to make sure those files are exactly what they say they are, and will continue to be for the long-term.
+
+            The MKV wrapper is of particular note to preservationists because part of its wrapper structure includes space for attachments, so you can bundle up all associated metadata right into the preservation fie. There’s the standard metadata assets but you can add other things like pictures of the content’s original format. You can even include a decoder within the file that can be used to decode the file itself.
+          </aside>
+        </section>
+
+        <section data-background="img/tim-and-eric-mind-blown.gif">
+        <aside class="notes">
+          You can stick anything in there! Pictures XML, another Matroska file, et cetera.
+        </aside>
+        </section>
+
+        <section>
+          <img src="img/doctor.png">
+            <aside class="notes">
+              And if your institution isn’t interested in the long-term sanctity of these files (kinda weird), it’s also good for debugging! Why is your file broken? Instead of like, going to the doctor and the doctor being like “there’s a bone broken somewhere in your body but I don’t know anything else” she can be like “THIS bone is broken in your body and this is how we fix it.” And that’s sort of what this checker can do for your files.
+            </aside>
+        </section>
+
+        <section>
+          <p>but for real though</p>
+            <aside class="notes">
+              Our proposal includes an eventual creation of a plug-in that will allow this data to be delivered to you while the digitization process is happening, but even at the base level you can implement this into your ingesting/accessioning process, so files can be sure to be valid as they come into your system and also checked routinely for bit rot and other unpleasantries before/after you migrate this data to “digital cold storage.” 
+
+              So I’m looking forward to continuing to work on this project and see it grow over time, and hopefully this entices you to keep an eye on PreForma Project and ideas on how you’ll be able to integrate it into your institution’s workflow in the future.
+            </aside>
         </section>
 
         <section>
           <h1>THANKS</h1>
-          <p></p>
+          <img src="img/cowboycookout.png">
         </section>
 
       </div>
